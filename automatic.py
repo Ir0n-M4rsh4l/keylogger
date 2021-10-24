@@ -4,6 +4,7 @@ from multiprocessing import Process
 import os
 import sys
 
+#The argument is the path to the directory containing the start.sh code
 path=sys.argv[1]
 
 pathSplit=path.split("/")
