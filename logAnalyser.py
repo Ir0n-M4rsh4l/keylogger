@@ -5,7 +5,7 @@ import datetime
 date=datetime.datetime.now()
 day=datetime.datetime.today()
 f=open("logAnalyse"+str(day)+".txt","w")
-
+ "the argument is the name of the file to analyse
 log=sys.argv[1]
 logf=open(log,"r")
 
